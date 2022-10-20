@@ -3,5 +3,17 @@
     "framer-motion": "^7.6.1",
     "react-icons": "^4.4.0",
     "react-qr-code": "^2.0.8"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+ 
+  "homepage": "https://github-Isaque-Esdras.github.io/busca_cep_e_gera_QrCode",
+
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
+
+}
+
