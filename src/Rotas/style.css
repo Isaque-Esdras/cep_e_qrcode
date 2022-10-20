@@ -1,0 +1,39 @@
+#articleQr{
+    background: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+header{
+    
+    font-size:48pt;
+    color: white;
+}
+
+a{
+    font-size: 16pt;
+}
+
+#quebraPagina{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#inputQr{
+  border: 1px solid black;
+}
+
+
+@media screen and (max-width:680px) {
+    
+    #quebraPagina{
+        font-size: 20pt;
+    }
+}

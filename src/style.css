@@ -1,0 +1,167 @@
+#conteiner{
+
+   background: linear-gradient(#0047AB, #6495ED);
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+   
+}
+
+
+
+input{
+
+    font-size: 25pt;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+#parteInformacao{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 16pt;
+}
+
+#titulo{
+    color: aliceblue;
+    font-size: 48pt;
+    animation: paraoTitulo 2s;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: black;  
+    font-size: 22pt;
+}
+
+
+#headerPrincipal{
+    background:#ffffff;
+    display: grid;
+    justify-content: center;
+}
+
+
+input::placeholder{
+    font-size: 18pt;
+}
+
+@keyframes paraoTitulo{
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+#botaoPesquisa{
+    font-size: 24pt;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+#botaoPesquisa:hover{
+    transform: scale(1.2);
+}
+
+
+p{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+button{
+    font-size: 17pt;
+    padding: 12px;
+    background-color: transparent;
+    border: none;
+    color: rgb(1, 1, 248);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:680px) {
+    
+    
+
+    #titulo{
+        font-size: 35px;
+    }
+    
+    #parteInformacao{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #primeiraMain{
+        width: 100%;
+    }
+
+    input{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #parteInput{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #botaoPesquisa{
+        display: flex;
+        
+    }
+
+    button{
+        font-size: 13pt;
+    }
+
+    #conteiner{
+        height: 90vh;
+    }
+    
+    h3{
+        font-size: 18pt;
+    }
+
+    footer{
+        font-size: 10pt;
+        
+    }
+}
